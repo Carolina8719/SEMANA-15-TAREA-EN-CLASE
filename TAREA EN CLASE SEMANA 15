@@ -1,0 +1,33 @@
+#semana 15 - tarea en clase
+# Libros Favoritos
+libros = [
+    {
+        "nombre": "Harry potter y el prisionero de askaban",
+        "categoria": "Fantasia",
+        "año_de_publicacion": 1999,
+        "numero_de_hojas": 432,
+        "autor": "J.K. Rowling"
+    },
+    {
+        "nombre": "Harry Potter y el Cáliz de Fuego",
+        "categoria": "Fantasia",
+        "año_de_publicacion": 2000,
+        "numero_de_hojas": 636,
+        "autor": "J.K. Rowling"
+    },
+    {
+        "nombre": "Harry Potter y el Principe Mestizo",
+        "categoria": "Fantasia",
+        "año_de_publicacion": 2005,
+        "numero_de_hojas": 672,
+        "autor": "J.K. Rowling"
+    }
+]
+
+# Imprimir el listado de libros
+for libro in libros:
+    print(f"Nombre: {libro['nombre']}")
+    print(f"Categoría: {libro['categoria']}")
+    print(f"Año de Publicación: {libro['año_de_publicacion']}")
+    print(f"Número de Hojas: {libro['numero_de_hojas']}")
+    print(f"Autor: {libro['autor']}\n")
